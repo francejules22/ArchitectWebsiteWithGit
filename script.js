@@ -5,3 +5,9 @@ window.onload = () => {
     },4000);
   };
   //End of Window Loading
+
+//Hamburger Menu
+document.querySelector(".hamburger-menu").addEventListener ("click" , () => {
+  document.querySelector(".container").classList.toggle("change");
+});
+//End of Hamburger Menus
